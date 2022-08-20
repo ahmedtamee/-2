@@ -1,0 +1,31 @@
+body{
+    font-family: Readex Pro;
+}
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(128, 128, 128, 0.507), rgba(0, 0, 0, 0.39)) , url(../image/145166751_136501964974556_182739226125750115_n.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    box-shadow: 0px 1px 5px red;
+}
+.navbar-brand , .nav-link{
+    color: #Fff;
+    font-weight: bold;
+    font-size: larger;
+    border: solid 1px ;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    border-color: orangered;
+}
+.nav-link.active{
+    color: gray !important;
+    text-shadow: 1px 1px 0 white;
+}
+a:hover{
+    background-color: gray;
+}
+
